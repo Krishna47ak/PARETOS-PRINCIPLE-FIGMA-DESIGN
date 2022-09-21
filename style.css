@@ -1,0 +1,38 @@
+
+.container {
+    background: linear-gradient(to left ,#f6f6f6,rgb(254 254 254));
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: -1px;
+    font-family: 'Economica', sans-serif;
+}
+
+#unline {
+    letter-spacing: 3px;
+    display: inline-block;
+    margin-left: 610px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid blue;
+}
+
+h2 {
+    font-family: 'Karma', serif;
+    font-size: 30px;
+    text-align: center;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    /* opacity: 0.9; */
+    /* border: 5px solid blue; */
+}
