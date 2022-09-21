@@ -1,38 +1,39 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .container {
-    background: linear-gradient(to left ,#f6f6f6,rgb(254 254 254));
+    margin: 0px 440px;
+    background: linear-gradient(to bottom left ,#e5e5e5e1,rgb(254 254 254));
     overflow: hidden;
     background-attachment: fixed;
+    text-align: center;
 }
 
 h1 {
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    font-size: 80px;
+    padding-top: 10px;
+    font-size: 70px;
     letter-spacing: -1px;
     font-family: 'Economica', sans-serif;
+    line-height: 55px;
 }
 
-#unline {
-    letter-spacing: 3px;
+#Secondline {
     display: inline-block;
-    margin-left: 610px;
-    padding-bottom: 10px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
     border-bottom: 5px solid blue;
 }
 
 h2 {
     font-family: 'Karma', serif;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: grey;
-    margin-bottom: 0px;
+    padding: 20px 0px 30px 0px;
 }
 
 img {
-    display: block;
+    padding: 25px 0px 10px 0px;
     margin: 0 auto;
-    /* opacity: 0.9; */
-    /* border: 5px solid blue; */
 }
